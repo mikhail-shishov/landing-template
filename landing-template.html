@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лендинг шаблон Realtybook</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link href="css/dist/style.css" rel="stylesheet">
+</head>
+
+<body class="landing-template-page">
+    <div class="form_body">
+        <div class="form_content">
+            <form action="#" class="form" id="form">
+                <label for="form">заказать обратный звонок</label>
+                <div class="form_subtitle">Проконсультируем и поможем с выбором</div>
+                <div class="form_items">
+                    <div class="form_inputs">
+                        <div class="form_inputs_contact">
+                            <input type="text" class="form_inputs_name" placeholder="Ваше имя" />
+                            <input type="tel" class="form_inputs_tel" placeholder="+7 (ххх) ххх хх хх" />
+                        </div>
+                        <input type="text" class="form_inputs_time" placeholder="Укажите удобное время" />
+                        <div class="form_items_button">
+                            <button>ЗАКАЗАТЬ</button>
+                        </div>
+                    </div>
+                </div>
+                <!--div class="form_politice">
+                    Нажимая на кнопку ЗАКАЗАТЬ, вы соглашаетесь с
+                    <a href="#">политикой конфиденциальности</a> и даете согласие на
+                    обработку персональных данных
+                </div-->
+            </form>
+        </div>
+    </div>
+    <div class="header">
+        <div class="container">
+            <div class="header_body">
+                <div class="header_logo">
+                    <a href="index.html">
+                        <picture>
+                            <!--source srcset="img/logo.webp" type="image/webp"--><img src="img/logo2.png" alt="logo" />
+                        </picture>
+                    </a>
+                </div>
+                <div class="header-logo-mob">
+                    <a href="index.html">
+                        <img src="img/logo-mob.png" alt="">
+                    </a>
+                </div>
+                <!--			<nav class="navigation">-->
+                <!--				<ul class="header_menu">-->
+                <!--					<li class="header_list header_list_first">-->
+                <!--						<a href="#" class="header_link header_link_first">покупка</a>-->
+                <!--						<ul>-->
+                <!--							<li><a href="#">новостройки</a></li>-->
+                <!--							<hr />-->
+                <!--							<li><a href="#">вторичная</a></li>-->
+                <!--						</ul>-->
+                <!--					</li>-->
+                <!--					<li class="header_list">-->
+                <!--						<a href="#" class="header_link header_link_second">аренда</a>-->
+                <!--					</li>-->
+                <!--					<li class="header_list">-->
+                <!--						<a href="#" class="header_link">продажа</a>-->
+                <!--					</li>-->
+                <!--				</ul>-->
+                <!--			</nav>-->
+                <!--			<div class="header_search">-->
+                <!--				<input type="text" placeholder="поиск" />-->
+                <!--				<a href="#">-->
+                <!--					<picture>-->
+                <!--						<source srcset="img/loop.svg" type="image/webp"><img src="img/loop.svg" alt="поиск" />-->
+                <!--					</picture>-->
+                <!--				</a>-->
+                <!--			</div>-->
+                <!--			<div class="header_menu_burger">-->
+                <!--				<div class="header_burger_desktop">-->
+                <!--					<span></span>-->
+                <!--				</div>-->
+                <!--				<div class="menu_burger">-->
+                <!--					<a href="#">о компании</a>-->
+                <!--					<hr class="menu_burger_fisrt_hr">-->
+                <!--					<a href="#">специальные предложения</a>-->
+                <!--					<hr />-->
+                <!--					<a href="#" class="menu_burger_link">новостройки</a>-->
+                <!--					<a href="#" class="menu_burger_link">вторичная</a>-->
+                <!--					<a href="#" class="menu_burger_link">аренды</a>-->
+                <!--					<a href="#">продажа</a>-->
+                <!--					<hr />-->
+                <!--					<a href="#" class="menu_burger_link">блог про инвестирование</a>-->
+                <!--					<a href="#">сми и новости</a>-->
+                <!--					<hr />-->
+                <!--					<a href="#" class="menu_burger_link">девелоперам</a>-->
+                <!--					<a href="#" class="menu_burger_link">работа в realtybook </a>-->
+                <!--					<a href="#">контакты</a>-->
+                <!--					<div class="header_social">-->
+                <!--						<a href="#">-->
+                <!--							<picture>-->
+                <!--								<source srcset="img/tg.svg" type="image/webp"><img src="img/tg.svg" alt="Telegram" />-->
+                <!--							</picture>-->
+                <!--						</a>-->
+                <!--						<a href="#">-->
+                <!--							<picture>-->
+                <!--								<source srcset="img/club.svg" type="image/webp"><img src="img/club.svg" alt="ClubHouse" />-->
+                <!--							</picture>-->
+                <!--						</a>-->
+                <!--						<a href="#">-->
+                <!--							<picture>-->
+                <!--								<source srcset="img/inst.svg" type="image/webp"><img src="img/inst.svg" alt="Instagram" />-->
+                <!--							</picture>-->
+                <!--						</a>-->
+                <!--						<a href="#">-->
+                <!--							<picture>-->
+                <!--								<source srcset="img/fb.svg" type="image/webp"><img src="img/fb.svg" alt="FaceBook" />-->
+                <!--							</picture>-->
+                <!--						</a>-->
+                <!--						<a href="#">-->
+                <!--							<picture>-->
+                <!--								<source srcset="img/youtube.svg" type="image/webp"><img src="img/youtube.svg" alt="YouTube" />-->
+                <!--							</picture>-->
+                <!--						</a>-->
+                <!--					</div>-->
+                <!--					<div class="header_connection">-->
+                <!--						<a href="tel:+74951616650">+ 7 (495) 16 16 650</a>-->
+                <!--						<a href="mailto:info@realtybook.ru">info@realtybook.ru</a>-->
+                <!--					</div>-->
+                <!--				</div>-->
+                <!--			</div>-->
+                <!--			<div class="header_about">-->
+                <!--				<a href="#">о компании</a>-->
+                <!--			</div>-->
+                <a href="tel:+74951616650" class="tel_num">+7 (495) 161 66 50</a>
+                <a href="tel:+74951616650" class="tel_num_mobile">
+                    <picture>
+                        <source srcset="img/phone.svg" type="image/webp"><img src="img/phone.svg" alt="">
+                    </picture>
+                </a>
+                <a href="#" class="brand_btn btn_recall form_button_fade">ПЕРЕЗВОНИТЬ</a>
+
+                <!--			<div class="header_tel">-->
+                <!--				<div class="header_tel_link">+7 (495) 161 66 50</div>-->
+                <!--				<div class="header_tel_menu">-->
+                <!--					<a href="#" class="form_button_fade">ЗАКАЗАТЬ ЗВОНОК</a>-->
+                <!--					<a href="tel:+74951616650">ПОЗВОНИТЬ</a>-->
+                <!--				</div>-->
+                <!--			</div>-->
+                <!--			<div class="header_phone">-->
+                <!--				<a href="#">-->
+                <!--					<picture>-->
+                <!--						<source srcset="img/phone.svg" type="image/webp"><img src="img/phone.svg" alt="">-->
+                <!--					</picture>-->
+                <!--				</a>-->
+                <!--				<div class="header_tel_menu">-->
+                <!--					<a href="#" class="form_button_fade">ЗАКАЗАТЬ ЗВОНОК</a>-->
+                <!--					<a href="tel:+74951616650">ПОЗВОНИТЬ</a>-->
+                <!--				</div>-->
+                <!--			</div>-->
+            </div>
+        </div>
+    </div>
+
+    <section class="intro-sect">
+        <div class="container">
+            <div class="intro-sect-img">
+                <div class="intro-sect-text">
+                    <h1>жильё и апартаменты москва-сити от&nbsp;20&nbsp;млн&nbsp;₽</h1>
+                    <p class="intro-sect-text-desc">Жизнь на высоте комфорта в деловом центре столицы. Все преимущества
+                        премиальной инфраструктуры</p>
+                    <div class="news_form">
+                        <form action="">
+                            <input type="text" placeholder="Ваше имя">
+                            <input type="text" class="" placeholder="+7 (ххх) ххх хх хх">
+                            <button class="brand_btn sale_btn">Отправить заявку</button>
+                        </form>
+                        <!--div class="service_form_politice">
+                            Нажимая на кнопку ОТПРАВИТЬ ЗАЯВКУ, вы соглашаетесь с
+                            <a href="#">политикой конфиденциальности</a> и даете согласие на
+                            обработку персональных данных
+                        </div-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="object-list-tags">
+        <div class="container">
+            <div class="object_type">
+                <input type="checkbox" class="object_type_input" id="object_list_type_1" name="object_list_type_1"
+                    value="object_list_type_1">
+                <label for="object_list_type_1">#Терраса</label>
+
+                <input type="checkbox" class="object_type_input" id="object_list_type_2" name="object_list_type_2"
+                    value="object_list_type_2">
+                <label for="object_list_type_2">#Панорамноеостекление</label>
+
+                <input type="checkbox" class="object_type_input" id="object_list_type_3" name="object_list_type_3"
+                    value="object_list_type_3">
+                <label for="object_list_type_3">#Отделка</label>
+
+                <input type="checkbox" class="object_type_input" id="object_list_type_4" name="object_list_type_4"
+                    value="object_list_type_4">
+                <label for="object_list_type_4">#клубныедома</label>
+
+                <input type="checkbox" class="object_type_input" id="object_list_type_5" name="object_list_type_5"
+                    value="object_list_type_5">
+                <label for="object_list_type_5">#особняки</label>
+
+                <input type="checkbox" class="object_type_input" id="object_list_type_6" name="object_list_type_6"
+                    value="object_list_type_6">
+                <label for="object_list_type_6">#небоскребы</label>
+
+                <input type="checkbox" class="object_type_input" id="object_list_type_7" name="object_list_type_7"
+                    value="object_list_type_7">
+                <label for="object_list_type_7">#таунхаусы</label>
+
+                <input type="checkbox" class="object_type_input" id="object_list_type_8" name="object_list_type_8"
+                    value="object_list_type_8">
+                <label for="object_list_type_8">#лофт</label>
+
+                <input type="checkbox" class="object_type_input" id="object_list_type_9" name="object_list_type_9"
+                    value="object_list_type_9">
+                <label for="object_list_type_9">#дворпарк</label>
+
+                <input type="checkbox" class="object_type_input" id="object_list_type_10" name="object_list_type_10"
+                    value="object_list_type_10">
+                <label for="object_list_type_10">#Подземнаяпарковка</label>
+                <input type="checkbox" class="object_type_input" id="object_list_type_11" name="object_list_type_11"
+                    value="object_list_type_11">
+                <label for="object_list_type_11">#Терраса</label>
+
+                <input type="checkbox" class="object_type_input" id="object_list_type_12" name="object_list_type_12"
+                    value="object_list_type_12">
+                <label for="object_list_type_12">#Панорамноеостекление</label>
+
+                <input type="checkbox" class="object_type_input" id="object_list_type_13" name="object_list_type_13"
+                    value="object_list_type_13">
+                <label for="object_list_type_13">#Отделка</label>
+
+                <input type="checkbox" class="object_type_input" id="object_list_type_14" name="object_list_type_14"
+                    value="object_list_type_14">
+                <label for="object_list_type_14">#клубныедома</label>
+
+                <input type="checkbox" class="object_type_input" id="object_list_type_15" name="object_list_type_15"
+                    value="object_list_type_15">
+                <label for="object_list_type_15">#особняки</label>
+
+                <input type="checkbox" class="object_type_input" id="object_list_type_16" name="object_list_type_16"
+                    value="object_list_type_16">
+                <label for="object_list_type_16">#небоскребы</label>
+
+                <input type="checkbox" class="object_type_input" id="object_list_type_17" name="object_list_type_17"
+                    value="object_list_type_17">
+                <label for="object_list_type_17">#таунхаусы</label>
+
+                <input type="checkbox" class="object_type_input" id="object_list_type_18" name="object_list_type_18"
+                    value="object_list_type_18">
+                <label for="object_list_type_18">#лофт</label>
+
+                <input type="checkbox" class="object_type_input" id="object_list_type_19" name="object_list_type_19"
+                    value="object_list_type_19">
+                <label for="object_list_type_19">#дворпарк</label>
+                <a href="" class="white_bordered_btn">показать все</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="objects">
+        <section class="object-sect">
+            <div class="container">
+                <div class="action_header">
+                    <h3>realtybook<span class="header-title-objects"><a href="#"> — найдено 15 объектов</a></span></h3>
+                    <a href="" class="btn">Заказать звонок</a>
+                </div>
+            </div>
+            <!-- объект 1 -->
+            <div class="object-item">
+                <div class="object-sect-slider object-sect-slider-first">
+                    <div class="swiper-container object-slider-1">
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="object-slide-img"><img src="img/landing/фото.jpg" alt=""></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="object-slide-img"><img src="img/landing/фото.jpg" alt=""></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="object-slide-img"><img src="img/landing/фото.jpg" alt=""></div>
+                            </div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination object-pagination-1"></div>
+
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev object-prev-1"></div>
+                        <div class="swiper-button-next object-next-1"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="object-sect-desc">
+                        <div class="object-sect-name">
+                            <p><span class="object-sect-name-main">Artisan</span><span
+                                    class="object-sect-name-desc"><span>—</span><span>клубный дом
+                                        премиум-класса</span></span>
+                            </p>
+                        </div>
+                        <div class="object-sect-text">
+                            <p>Исторический фасад дома очень бережно восстановлен архитекторами с сохранением множества
+                                деталей
+                                (лепнина, портик, скульптурные группы, колонны). Лепнина ручной работы, фактура и
+                                качество
+                                материалов фасада подчёркивают самобытность дома.</p>
+
+                            <p>Выходящая во внутренний двор часть фасада облицована кирпичом ручной формовки и частично
+                                остеклена. Чтобы воссоздать исторический колорит, кирпич готовили из специальной глины,
+                                затем
+                                обжигали в высокотемпературной печи, обрабатывали цветным песком и искусственно старили.
+                                Именно
+                                такой технический процесс помог добиться необычного цвета и выразительной фактуры
+                                (теперь каждый
+                                кирпич обладает индивидуальным рельефом).</p>
+
+                            <ul class="object-sect-list">
+                                <li><b>Срок сдачи:</b> 2023</li>
+                                <li><b>Класс:</b> бизнес</li>
+                                <li><b>Этажность:</b> от 23 до 43</li>
+                                <li><b>Корпусов:</b> 3 корпуса</li>
+                                <li><b>Варианты отделки:</b> без отделки, предчистовая, чистовая</li>
+                                <li><b>Объекты на территории:</b> школа, детский сад, детские площадки, спортивные
+                                    площадки,
+                                    места для отдыха, площадки для выгула собак, супермаркет, рестораны, SPA-центр</li>
+                                <li><b>Парковка:</b> подземная</li>
+                                <li><b>Безопасность:</b> огороженный периметр, видеонаблюдение, пропускная система,
+                                    круглосуточная охрана, консьерж, охраняемая парковка</li>
+                            </ul>
+
+                            <a href="" class="btn btn-last">подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- объект 1 конец -->
+            <!-- объект 2 -->
+            <div class="object-item">
+                <div class="object-sect-slider">
+                    <div class="swiper-container object-slider-2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="object-slide-img"><img src="img/landing/фото.jpg" alt=""></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="object-slide-img"><img src="img/landing/фото.jpg" alt=""></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="object-slide-img"><img src="img/landing/фото.jpg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination object-pagination-2"></div>
+
+                        <div class="swiper-button-prev object-prev-2"></div>
+                        <div class="swiper-button-next object-next-2"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="object-sect-desc">
+                        <div class="object-sect-name">
+                            <p><span class="object-sect-name-main">Astris</span><span
+                                    class="object-sect-name-desc"><span>—</span><span>клубный дом на Воробьёвых
+                                        горах</span></span>
+                            </p>
+                        </div>
+                        <div class="object-sect-text">
+                            <p>Это один из красивейших районов Москвы с естественным перепадом высот, посреди огромного
+                                парка площадью 137 гектаров.</p>
+
+                            <p>Любой человек ценит жизнь на природе: она умиротворяет, успокаивает, отвлекает от
+                                повседневных проблем. Только среди живой зелени возможен полноценный отдых. Astris
+                                обеспечивает такой комфортный образ жизни не выезжая из мегаполиса в наиболее
+                                экологически благоприятном районе Москвы.</p>
+
+                            <ul class="object-sect-list">
+                                <li><b>Срок сдачи:</b> 2023</li>
+                                <li><b>Класс:</b> бизнес</li>
+                                <li><b>Этажность:</b> от 23 до 43</li>
+                                <li><b>Корпусов:</b> 3 корпуса</li>
+                                <li><b>Варианты отделки:</b> без отделки, предчистовая, чистовая</li>
+                                <li><b>Объекты на территории:</b> школа, детский сад, детские площадки, спортивные
+                                    площадки,
+                                    места для отдыха, площадки для выгула собак, супермаркет, рестораны, SPA-центр</li>
+                                <li><b>Парковка:</b> подземная</li>
+                                <li><b>Безопасность:</b> огороженный периметр, видеонаблюдение, пропускная система,
+                                    круглосуточная охрана, консьерж, охраняемая парковка</li>
+                            </ul>
+
+                            <a href="" class="btn btn-last">подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- объект 2 конец -->
+            <!-- объект 3 -->
+            <div class="object-item">
+                <div class="object-sect-slider">
+                    <div class="swiper-container object-slider-3">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="object-slide-img"><img src="img/landing/фото.jpg" alt=""></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="object-slide-img"><img src="img/landing/фото.jpg" alt=""></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="object-slide-img"><img src="img/landing/фото.jpg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination object-pagination-3"></div>
+
+                        <div class="swiper-button-prev object-prev-3"></div>
+                        <div class="swiper-button-next object-next-3"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="object-sect-desc">
+                        <div class="object-sect-name">
+                            <p><span class="object-sect-name-main">Cloud Nine</span><span
+                                    class="object-sect-name-desc"><span>—</span><span>для ценителей исторического
+                                        наследия Москвы</span></span>
+                            </p>
+                        </div>
+                        <div class="object-sect-text">
+                            <p>Cloud Nine – это 4-й дом от Кремля, что вместе с другими особенностями определяет его
+                                принадлежность к трофейному классу недвижимости. В непосредственной пешей доступности
+                                находятся Третьяковская галерея, парк «Зарядье», а также парк искусств «Музеон».</p>
+
+                            <p>В архитектурном ансамбле 4 здания, объединённых общей концепцией и пространством для
+                                жизни. Дворы дома Cloud Nine, как и версальские площади, будут украшены мозаикой
+                                тёмно-рубинового оттенка и подогреваться в холодный сезон. Проектом предусмотрен ряд
+                                квартир с просторными террасами. Весь первый этаж занимают площади коммерческого
+                                назначения.</p>
+
+                            <ul class="object-sect-list">
+                                <li><b>Срок сдачи:</b> 2023</li>
+                                <li><b>Класс:</b> бизнес</li>
+                                <li><b>Этажность:</b> от 23 до 43</li>
+                                <li><b>Корпусов:</b> 3 корпуса</li>
+                                <li><b>Варианты отделки:</b> без отделки, предчистовая, чистовая</li>
+                                <li><b>Объекты на территории:</b> школа, детский сад, детские площадки, спортивные
+                                    площадки,
+                                    места для отдыха, площадки для выгула собак, супермаркет, рестораны, SPA-центр</li>
+                                <li><b>Парковка:</b> подземная</li>
+                                <li><b>Безопасность:</b> огороженный периметр, видеонаблюдение, пропускная система,
+                                    круглосуточная охрана, консьерж, охраняемая парковка</li>
+                            </ul>
+
+                            <a href="" class="btn btn-last">подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- объект 3 конец -->
+            <!-- объект 4 -->
+            <div class="object-item">
+                <div class="object-sect-slider">
+                    <div class="swiper-container object-slider-4">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="object-slide-img"><img src="img/landing/фото.jpg" alt=""></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="object-slide-img"><img src="img/landing/фото.jpg" alt=""></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="object-slide-img"><img src="img/landing/фото.jpg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination object-pagination-4"></div>
+
+                        <div class="swiper-button-prev object-prev-4"></div>
+                        <div class="swiper-button-next object-next-4"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="object-sect-desc">
+                        <div class="object-sect-name">
+                            <p><span class="object-sect-name-main">Eleven</span><span
+                                    class="object-sect-name-desc"><span>—</span><span>дизайнерский дом
+                                        премиум-класса</span></span>
+                            </p>
+                        </div>
+                        <div class="object-sect-text">
+                            <p>Дизайнерский дом премиум-класса в Краснопресненском районе. Архитектурный ансамбль
+                                состоит из 2 башен и соединяющего их стилобата. Характерные черты Eleven – скульптурные
+                                фасадные панели, авторский рисунок по камню и «живой» дизайн, вдохновлённый архитектурой
+                                небоскрёбов Манхэттена.</p>
+
+                            <p>Дом находится в 2 минутах от ТТК и в 10 минутах от Москва-Сити. Рядом с Eleven 4 зелёные
+                                зоны: парк Красногвардейские пруды (2 минуты пешком, парк Красная Пресня (10 минут),
+                                Краснопресненская набережная (12 минут), парк декабристского восстания (12 минут). Из
+                                окон Eleven открываются виды на отель Radisson Royal и Дом правительства.
+                                Краснопресненский – престижный развитый район, в котором имеется полноценная
+                                инфраструктура для учёбы, работы и любого вида отдыха.</p>
+
+                            <ul class="object-sect-list">
+                                <li><b>Срок сдачи:</b> 2023</li>
+                                <li><b>Класс:</b> бизнес</li>
+                                <li><b>Этажность:</b> от 23 до 43</li>
+                                <li><b>Корпусов:</b> 3 корпуса</li>
+                                <li><b>Варианты отделки:</b> без отделки, предчистовая, чистовая</li>
+                                <li><b>Объекты на территории:</b> школа, детский сад, детские площадки, спортивные
+                                    площадки,
+                                    места для отдыха, площадки для выгула собак, супермаркет, рестораны, SPA-центр</li>
+                                <li><b>Парковка:</b> подземная</li>
+                                <li><b>Безопасность:</b> огороженный периметр, видеонаблюдение, пропускная система,
+                                    круглосуточная охрана, консьерж, охраняемая парковка</li>
+                            </ul>
+
+                            <a href="" class="btn btn-last">подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- объект 4 конец -->
+            <!-- объект 5 -->
+            <div class="object-item">
+                <div class="object-sect-slider">
+                    <div class="swiper-container object-slider-5">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="object-slide-img"><img src="img/landing/фото.jpg" alt=""></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="object-slide-img"><img src="img/landing/фото.jpg" alt=""></div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="object-slide-img"><img src="img/landing/фото.jpg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination object-pagination-5"></div>
+
+                        <div class="swiper-button-prev object-prev-5"></div>
+                        <div class="swiper-button-next object-next-5"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="object-sect-desc">
+                        <div class="object-sect-name">
+                            <p><span class="object-sect-name-main">Fairmont</span><span
+                                    class="object-sect-name-desc"><span>—</span><span>апартаменты de luxe и 5-звёздочный
+                                        отель</span></span>
+                            </p>
+                        </div>
+                        <div class="object-sect-text">
+                            <p>В архитектурном ансамбле Fairmont усилиями девелопера Vesper и международной сети
+                                Fairmont Hotels соединились апартаменты уровня de luxe и 5-звёздочный отель. Оба здания
+                                имеют общие этажи – с торговой галереей, ресторанами, конференц-залами, wellness-зоной,
+                                spa. При этом в каждое здание доступен отдельный вход.</p>
+
+                            <p>Благодаря расположению в самом центре (1-я Тверская-Ямская), архитектурный ансамбль
+                                воспринял особенный ритм города. Под окнами есть буквально всё: от живой музыки в
+                                филармонии и великолепных театров до широких витрин бутиков и концептуальных ресторанов.
+                                Пространство насыщено культурой различных эпох и историческими памятниками («Английский
+                                клуб», Центральный телеграф, Елисеевский магазин и многие другие).</p>
+
+                            <ul class="object-sect-list">
+                                <li><b>Срок сдачи:</b> 2023</li>
+                                <li><b>Класс:</b> бизнес</li>
+                                <li><b>Этажность:</b> от 23 до 43</li>
+                                <li><b>Корпусов:</b> 3 корпуса</li>
+                                <li><b>Варианты отделки:</b> без отделки, предчистовая, чистовая</li>
+                                <li><b>Объекты на территории:</b> школа, детский сад, детские площадки, спортивные
+                                    площадки,
+                                    места для отдыха, площадки для выгула собак, супермаркет, рестораны, SPA-центр</li>
+                                <li><b>Парковка:</b> подземная</li>
+                                <li><b>Безопасность:</b> огороженный периметр, видеонаблюдение, пропускная система,
+                                    круглосуточная охрана, консьерж, охраняемая парковка</li>
+                            </ul>
+
+                            <a href="" class="btn btn-last">подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- объект 5 конец -->
+            <a href="#" class="action_button">показать еще<span class="action_button_objects"> 23 объекта</span></a>
+        </section>
+    </div>
+
+    <div class="top">
+        <div class="container">
+            <div class="action_header">
+                <div class="action_header_title">
+                    <h3>Рекомендуем также посмотреть<a class="header-title-objects" href="https://web-misha.github.io/realtybook/#"> — 13 объектов</a></h3>
+                </div>
+                <a href="" class="btn discount-btn">Акции</a>
+            </div>
+            <div class="top_slider">
+                <div
+                    class="swiper-container slider2 swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper" id="swiper-wrapper-3b62e56c10a8ede3d" aria-live="polite"
+                        style="transform: translate3d(0px, 0px, 0px);">
+                        <!-- Slides -->
+                        <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 12"
+                            style="width: 360px;">
+                            <picture>
+                                <source srcset="img/top_slider1.webp" type="image/webp"><img
+                                    src="./index_files/top_slider1.jpg" alt="">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 12"
+                            style="width: 360px;">
+                            <picture>
+                                <source srcset="img/top_slider2.webp" type="image/webp"><img
+                                    src="./index_files/top_slider2.jpg" alt="">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide" role="group" aria-label="3 / 12" style="width: 360px;">
+                            <picture>
+                                <source srcset="img/top_slider3.webp" type="image/webp"><img
+                                    src="./index_files/top_slider3.jpg" alt="">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide" role="group" aria-label="4 / 12" style="width: 360px;">
+                            <picture>
+                                <source srcset="img/top_slider4.webp" type="image/webp"><img
+                                    src="./index_files/top_slider4.jpg" alt="">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide" role="group" aria-label="5 / 12" style="width: 360px;">
+                            <picture>
+                                <source srcset="img/top_slider5.webp" type="image/webp"><img
+                                    src="./index_files/top_slider5.jpg" alt="">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide" role="group" aria-label="6 / 12" style="width: 360px;">
+                            <picture>
+                                <source srcset="img/top_slider6.webp" type="image/webp"><img
+                                    src="./index_files/top_slider6.jpg" alt="">
+                            </picture>
+                        </div>
+
+                        <div class="swiper-slide" role="group" aria-label="7 / 12" style="width: 360px;">
+                            <picture>
+                                <source srcset="img/top_slider1.webp" type="image/webp"><img
+                                    src="./index_files/top_slider1.jpg" alt="">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide" role="group" aria-label="8 / 12" style="width: 360px;">
+                            <picture>
+                                <source srcset="img/top_slider2.webp" type="image/webp"><img
+                                    src="./index_files/top_slider2.jpg" alt="">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide" role="group" aria-label="9 / 12" style="width: 360px;">
+                            <picture>
+                                <source srcset="img/top_slider3.webp" type="image/webp"><img
+                                    src="./index_files/top_slider3.jpg" alt="">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide" role="group" aria-label="10 / 12" style="width: 360px;">
+                            <picture>
+                                <source srcset="img/top_slider4.webp" type="image/webp"><img
+                                    src="./index_files/top_slider4.jpg" alt="">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide" role="group" aria-label="11 / 12" style="width: 360px;">
+                            <picture>
+                                <source srcset="img/top_slider5.webp" type="image/webp"><img
+                                    src="./index_files/top_slider5.jpg" alt="">
+                            </picture>
+                        </div>
+                        <div class="swiper-slide" role="group" aria-label="12 / 12" style="width: 360px;">
+                            <picture>
+                                <source srcset="img/top_slider6.webp" type="image/webp"><img
+                                    src="./index_files/top_slider6.jpg" alt="">
+                            </picture>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <!-- If we need navigation buttons -->
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="house house-slider-sect">
+        <div class="container">
+            <div class="house_content">
+                <div class="house_block">
+                    <div class="house_title">white khamovniki</div>
+                    <div class="house_description">
+                        Москва, Олсуфьевский переулок, вл. 9
+                    </div>
+                    <p class="house_text">
+                        Дом White Khamovniki создан в современном минималистическом стиле,
+                        характерном для европейских столиц. Проектом предусмотрено панорамное
+                        остекление, создающее эффект залитых светом пространств. На верхних
+                        этажах клубного дома располагаются двухуровневые пентхаусы с
+                        террасами. <br><br>
+
+                        Футуристичный фасад дома White Khamovniki подобен арт-объекту.
+                        Архитектурный бетон, витражное остекление и латунь, используемые в
+                        отделке фасадов зданий, создают узнаваемый образ дома на контрасте с
+                        классической архитектурой Хамовников.
+                    </p>
+                    <div class="house_button">
+                        <a href="https://web-misha.github.io/realtybook/#" class="house_button">все предложения</a>
+                    </div>
+                </div>
+                <div class="house_slider">
+                    <div
+                        class="swiper-container slider3 swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper" id="swiper-wrapper-6ed144fd528322f4" aria-live="polite"
+                            style="transform: translate3d(0px, 0px, 0px);">
+                            <!-- Slides -->
+                            <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 5"
+                                style="width: 565px;">
+                                <picture>
+                                    <source srcset="img/house_slider.webp" type="image/webp"><img
+                                        src="./index_files/house_slider.jpg" alt="">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 5"
+                                style="width: 565px;">
+                                <picture>
+                                    <source srcset="img/house_slider.webp" type="image/webp"><img
+                                        src="./index_files/house_slider.jpg" alt="">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="3 / 5" style="width: 565px;">
+                                <picture>
+                                    <source srcset="img/house_slider.webp" type="image/webp"><img
+                                        src="./index_files/house_slider.jpg" alt="">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="4 / 5" style="width: 565px;">
+                                <picture>
+                                    <source srcset="img/house_slider.webp" type="image/webp"><img
+                                        src="./index_files/house_slider.jpg" alt="">
+                                </picture>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="5 / 5" style="width: 565px;">
+                                <picture>
+                                    <source srcset="img/house_slider.webp" type="image/webp"><img
+                                        src="./index_files/house_slider.jpg" alt="">
+                                </picture>
+                            </div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div
+                            class="swiper-pagination swiper-pagination-slider3 swiper-pagination-clickable swiper-pagination-bullets">
+                            <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0"
+                                role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet"
+                                tabindex="0" role="button" aria-label="Go to slide 2"></span><span
+                                class="swiper-pagination-bullet" tabindex="0" role="button"
+                                aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0"
+                                role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet"
+                                tabindex="0" role="button" aria-label="Go to slide 5"></span></div>
+
+                        <!-- If we need navigation buttons -->
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer hide">
+        <div class="container">
+            <div class="footer_main">
+                <div class="footer_main_logo">
+                    <a href="index.html">
+                        <picture>
+                            <!--source srcset="img/logo_footer.webp" type="image/webp"--><img src="img/logo-white.png"
+                                alt="">
+                        </picture>
+                    </a>
+                    <div class="social_btns">
+                        <a href="#" class="fb"></a>
+                        <a href="#" class="ytb"></a>
+                        <a href="#" class="inst"></a>
+                    </div>
+                    <p>Все права защищены &#169; 2021. Realtybook</p>
+                </div>
+                <div class="footer_main_page">
+                    <a href="index.html">о компании</a>
+                    <p>ООО «Офислорд»</p>
+                    <p>ИНН: 7730666460</p>
+                    <p>ОГРН: 1127746446860</p>
+                    <p>КПП: 770301001</p>
+                </div>
+                <div class="footer_main_page">
+                    <a href="#">документы</a>
+                    <a href="#">Политика о конфиденциальности</a>
+                    <a href="#">Пользовательское соглашение</a>
+                </div>
+                <div class="footer_main_page contacts">
+                    <a href="#">контакты</a>
+                    <a href="tel:+74951616650">+ 7 (495) 16 16 650</a>
+                    <a href="mailto:timofeev@realtybook.ru">timofeev@realtybook.ru</a>
+                    <a target="_blank"
+                        href="https://www.google.com/maps/search/123317,+Москва,+Пресненская+набережная,+дом+12,+этаж+13+ММДЦ+Москва-сити,+башня+Федерация+Восток/@55.7473798,37.5420117,18.65z">123317,
+                        Москва, Пресненская набережная, дом 12, этаж 13 ММДЦ Москва-сити, башня Федерация Восток</a>
+                </div>
+            </div>
+        </div>
+        <!--	<hr>-->
+        <!--	<div class="container">-->
+        <!--		<div class="footer_politic">-->
+        <!--			<div class="footer_politic_copy">-->
+        <!--				<div>Copyright &copy 2021. All rights reserved</div>-->
+        <!--				<div>Данный сайт носит исключительно информационный характер-->
+        <!--					и не является публичной офертой. Для получения актуальной-->
+        <!--					информации о ценах, обращайтесь по телефону + 7 (495) 16 16 650</div>-->
+        <!--			</div>-->
+        <!--			<div class="footer-politic-col">-->
+        <!--				<div class="footer_politic_links">-->
+        <!--					<a href="#">Политика о конфиденциальности</a>-->
+        <!--					<a href="#">Пользовательское соглашение</a>-->
+        <!--				</div>-->
+        <!--				<div class="footer_politic_personal">-->
+        <!--					Персональные данные собирает и обрабатывает владелец сайта – ООО «Офислорд» 123112, Москва, набережная-->
+        <!--					Пресненская, дом 12, этаж 13, пом. №26 <br> ОГРН: 1127746446860, ИНН: 7730666460, КПП: 770301001-->
+        <!--				</div>-->
+        <!--			</div>-->
+        <!--		</div>-->
+        <!--	</div>-->
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/jquery-steps.min.js"></script>
+    <script src="js/jquery.multi-select.js"></script>
+    <!-- <script src="js/tablesort.min.js"></script>
+    <script src="js/tablesort-script.js"></script> -->
+    <script src="js/filters-script.js"></script>
+    <script src="js/script.js?5"></script>
+</body>
+
+</html>
