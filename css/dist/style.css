@@ -11205,6 +11205,8 @@ h3 a {
 .landing-template-page .intro-sect-img .news_form input, .landing-template-page .intro-sect-img .service_form input, .landing-template-page .intro-sect-img .service_form textarea {
   background-color: transparent;
   border: 1.5px solid white;
+  box-shadow: none;
+  outline: none;
 }
 @media (max-width: 1100px) {
   .landing-template-page .intro-sect-img .news_form input, .landing-template-page .intro-sect-img .service_form input, .landing-template-page .intro-sect-img .service_form textarea {
@@ -11757,4 +11759,20 @@ h3 a {
   .landing-template-page .header-title-objects {
     display: inline-block;
   }
+}
+
+.safari .object_type label, .safari .object_type .white_bordered_btn {
+  border: 1px solid rgba(159, 198, 235, 0.7);
+  border-radius: 30px;
+}
+
+.safari .object_type .object_type_input:checked + label {
+  background: linear-gradient(98.44deg, rgba(159, 198, 235, 0.7), rgba(236, 212, 167, 0.7));
+  color: #013220;
+}
+
+.safari .object_type .object_type_input:checked + label:before {
+  background: none;
+  -webkit-mask: initial;
+  mask-composite: #add;
 }

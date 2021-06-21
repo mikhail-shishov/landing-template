@@ -264,3 +264,16 @@ $(document).mouseup(function (e) {
     $("html").removeClass("lock");
   }
 });
+
+// browser detection
+$(document).ready(function () {
+  var browser = "unknown-browser";
+    if(navigator.userAgent.indexOf("MSIE")!=-1 || navigator.userAgent.indexOf("rv:11.0")!=-1) browser = "msie";
+    else if(navigator.userAgent.indexOf("Edge")!=-1) browser = "microsoft-edge";
+    else if(navigator.userAgent.indexOf("Firefox")!=-1) browser = "firefox";
+    else if(navigator.userAgent.indexOf("Opera")!=-1) browser = "opera";
+    else if(navigator.userAgent.indexOf("Chrome") != -1) browser = "chrome";
+    else if(navigator.userAgent.indexOf("Safari")!=-1) browser = "safari";
+
+  jQuery('body').addClass(browser);
+});
