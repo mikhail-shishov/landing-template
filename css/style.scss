@@ -4750,7 +4750,9 @@ html.lock {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    margin-right: 1px;
+    padding-right: 1px;
 }
 
 .house_block {
@@ -4823,6 +4825,10 @@ html.lock {
 .swiper-button-prev-house {
     left: auto;
     right: 120px
+}
+
+.swiper-button-next-house {
+    right: 70px;
 }
 
 .slider3 {
@@ -11714,21 +11720,6 @@ html.lock {
         }
     }
 
-    .top {
-        padding-bottom: 150px;
-        margin-bottom: -150px;
-
-        .container {
-            max-width: 1920px;
-        }
-    }
-
-    .house {
-        .container {
-            max-width: 1920px;
-        }
-    }
-
     .intro-sect-img {
         background-image: url(../../img/IMG_10221.jpg);
         background-size: cover;
@@ -11742,7 +11733,7 @@ html.lock {
 
         &:before {
             content: "";
-            background: linear-gradient(98.44deg, rgba(159, 198, 235, 0.7) 0%, rgba(236, 213, 169, 0.7) 100%);
+            background: linear-gradient(98.44deg, rgba(159, 198, 235, 0.4) 0%, rgba(236, 213, 169, 0.4) 100%);
             position: absolute;
             top: 0;
             left: 0;
@@ -11847,6 +11838,8 @@ html.lock {
 
             @media (max-width: 991px) {
                 margin-top: 0;
+                box-shadow: none;
+                max-width: 190px;
             }
         }
 
@@ -12135,7 +12128,7 @@ html.lock {
         padding: 0 85px 150px 183px;
 
         @media (max-width: 1399px) {
-            padding: 0 20px 0 130px;
+            padding: 0 20px 50px 130px;
         }
 
         @media (max-width: 1000px) {
@@ -12143,8 +12136,15 @@ html.lock {
             padding: 0 20px 0 100px;
         }
 
-        @media (max-width: 576px) {
+        @media (max-width: 768px) {
             padding: 0 25px;
+
+            .house_slider img {
+                max-width: 100%;
+            }
+        }
+
+        @media (max-width: 576px) {
             .house_block {
                 margin: 30px 0 0;
             }
@@ -12169,6 +12169,12 @@ html.lock {
     .top {
         background-color: white;
         margin-top: 150px;
+        padding-bottom: 200px;
+        margin-bottom: -300px;
+
+        .container {
+            max-width: 1920px;
+        }
 
         @media (max-width: 860px) {
             margin-top: 50px;
@@ -12191,7 +12197,10 @@ html.lock {
             }
 
             .header-title-objects {
-                display: none;
+
+                @media (max-width: 860px) {
+                    display: none;
+                }
             }
         }
     }
@@ -12199,10 +12208,35 @@ html.lock {
     .house {
         background-color: white;
 
+        @media (max-width: 640px) {
+            margin-top: 130px;
+        }
+
+        .container {
+            max-width: 1920px;
+        }
+
         &:before {
             background: linear-gradient(108.77deg, rgba(159, 198, 235, 0.15) 0%, rgba(236, 213, 169, 0.15) 100%);
             top: 100px;
             z-index: initial;
+            height: 815px;
+
+            @media (max-width: 1000px) {
+                height: 645px;
+            }
+
+            @media (max-width: 768px) {
+                display: none;
+            }
+        }
+
+        .house_block {
+            margin-top: 120px;
+
+            @media (max-width: 576px) {
+                margin-top: 0;
+            }
         }
     }
 
@@ -12268,6 +12302,29 @@ html.lock {
     
     .footer.hide .footer_main_logo .social_btns {
         margin: 35px 0 20px
+    }
+    
+    @media (max-width: 1280px) {
+        .object_type .object_type_input+label:hover:before {
+            background: transparent;    
+            border: 2px solid rgba(159,198,235,.7);
+            /* -webkit-mask: initial;
+            -webkit-mask-composite: initial;
+            mask-composite: initial; */
+        }
+    
+        .multi-select-menuitem>input:not(:disabled):active+span:before, .multi-select-menuitem>input:not(:disabled):not(:checked)+span:hover:before {
+            background: transparent;
+            border: 1px solid #013220;
+        }
+    
+        .object_type .object_type_input:checked+label:before, .object_type .object_type_input:checked+label:hover:before {
+            background: linear-gradient(98.44deg,rgba(159,198,235,.7),hsla(39,64%,79%,.7));
+            -webkit-mask: linear-gradient(98.44deg,rgba(159,198,235,.7),hsla(39,64%,79%,.7)) content-box,linear-gradient(98.44deg,rgba(159,198,235,.7),hsla(39,64%,79%,.7));
+            -webkit-mask-composite: destination-out;
+            mask-composite: exclude;
+            border: 0;
+        }
     }
     
     @media (max-width:900px) {

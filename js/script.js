@@ -169,6 +169,16 @@ $(document).ready(function () {
       prevEl: ".object-prev-5",
     },
   });
+  const swiper6 = new Swiper(".slider3", {
+    observer: true,
+    observeParents: true,
+    slidesPerView: 1,
+    pagination: {
+      el: ".swiper-pagination-slider3",
+      clickable: true
+    },
+    speed: 600
+  });
   var houseNavSwiper = new Swiper(".slider2", {
     observer: true,
     observeParents: true,
