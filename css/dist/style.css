@@ -1,4 +1,12 @@
 @charset "UTF-8";
+input, textarea {
+  box-shadow: none !important;
+  outline: none;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+}
+
 .map {
   height: 0;
   overflow: hidden;
@@ -11205,8 +11213,7 @@ h3 a {
 .landing-template-page .intro-sect-img .news_form input, .landing-template-page .intro-sect-img .service_form input, .landing-template-page .intro-sect-img .service_form textarea {
   background-color: transparent;
   border: 1.5px solid white;
-  box-shadow: none;
-  outline: none;
+  background: transparent;
 }
 @media (max-width: 1100px) {
   .landing-template-page .intro-sect-img .news_form input, .landing-template-page .intro-sect-img .service_form input, .landing-template-page .intro-sect-img .service_form textarea {
